@@ -1,4 +1,4 @@
-body {
+ body {
    background-color: #af1000;
    padding: 0;
    margin:0;   
@@ -8,7 +8,7 @@ body {
 header{
  padding: 0%;
  background-color: #7b0d0d;
- 
+ width: 126%;
 }
 
 
@@ -21,16 +21,17 @@ header h1 {
 nav{
  width: 4.7%;
  float:left; 
- 
+
  background-color: #7b0d0d;
 
   
  
 }
 nav a {
+ 
   display:block;
-  
-  margin:100%;
+  text-align: center;
+  margin:337%;
   margin-left: 0;
   margin-right: 0;
   font-size: 1.5em;
@@ -50,12 +51,11 @@ section {
 
 footer{
  float: left;
-width: 100%;
+ width: 126%;
  background-color: #7b0d0d;
+ color: white; 
 }
  nav, section, aside{
 	
 	margin: 0;
 }
-
-
