@@ -23,15 +23,16 @@
 /* *************************** Large screens ************************************** */
 /* min-width 1025px */
 @media only screen and (min-width: 64.063em) { 
-	
+/* upravit*/	
  body {
    background-color: #af1000;
-   padding: 0;
+
    margin:0;   
    font-family: "Times New Roman";  
 }
 
 header{
+ margin: 0;
  padding: 0%;
  background-color: #7b0d0d;
  width: 100%;
@@ -45,34 +46,55 @@ header h1 {
 	margin: 0;
 }
 
-nav{
- width: 4.7%;
- float:left; 
-
- background-color: #7b0d0d;
-
-  
- 
+nav ul ul {
+	display: none;
 }
-nav a {
- 
-  display:block;
-  text-align: center;
-  margin:336.1%;
+
+	nav ul li:hover > ul {
+	   margin: 0;
+		display: block;
+		float: none;
+		padding: 0;
+		text-decoration: none;
+	}
+nav ul {
+	background-color: #7b0d0d; 
+	text-decoration: none;
+	width: 7%;
+
+   padding: 0;
+   margin: 0;
+  
+	list-style: none;
+	float:left; 
+	display: inline-table;
+}
+
+nav ul li{
+	 margin:180%;
   margin-left: 0;
   margin-right: 0;
-  font-size: 1.5em;
-  text-decoration: none;
-  color: white; 
-}
-nav a:hover, nav a:focus {
-	text-decoration: underline;
-}
-section {
- float:right;
- width: 95.3%; 
- height: 90%;
 
+}
+nav ul li ul li{
+	 padding:0;
+	 margin:0;
+}
+nav ul li a{
+	text-decoration: none;
+	padding: 0;
+   margin: 0;
+	color: white;
+
+}
+
+
+
+section {
+ margin: 0;
+ float:right;
+ width: 93%; 
+ height: 90%;
  background-color: white;
 }
  
@@ -86,9 +108,6 @@ footer{
  position: fixed;
  
 }
- nav, section{	
-	margin: 0;
-}
 } 
 
 /* min-width 1025px and max-width 1440px */
@@ -99,7 +118,92 @@ footer{
 @media only screen and (min-width: 90.063em) { } 
 
 /* min-width 1441px and max-width 1920px*/
-@media only screen and (min-width: 90.063em) and (max-width: 120em) { } 
+@media only screen and (min-width: 90.063em) and (max-width: 120em) { 
+body {
+   background-color: #af1000;
+
+   margin:0;   
+   font-family: "Times New Roman";  
+}
+
+header{
+ margin: 0;
+ padding: 0%;
+ background-color: #7b0d0d;
+ width: 100%;
+ position: fixed;
+}
+
+
+header h1 {
+	color: #FFFFFF;
+	
+	margin: 0;
+}
+
+nav ul ul {
+	display: none;
+}
+
+	nav ul li:hover > ul {
+	   margin: 0;
+		display: block;
+		float: none;
+		padding: 0;
+		text-decoration: none;
+	}
+nav ul {
+	background-color: #7b0d0d; 
+	text-decoration: none;
+	width: 7%;
+
+   padding: 0;
+   margin: 0;
+  
+	list-style: none;
+	float:left; 
+	display: inline-table;
+}
+
+nav ul li{
+	 margin:180%;
+  margin-left: 0;
+  margin-right: 0;
+
+}
+nav ul li ul li{
+	 padding:0;
+	 margin:0;
+}
+nav ul li a{
+	text-decoration: none;
+	padding: 0;
+   margin: 0;
+	color: white;
+
+}
+
+
+
+section {
+ margin: 0;
+ float:right;
+ width: 93%; 
+ height: 90%;
+ background-color: white;
+}
+ 
+
+footer{
+ 
+ width: 100%;
+ margin-top: 67%;
+ background-color: #7b0d0d;
+ color: white; 
+ position: fixed;
+ 
+}	
+} 
 
 /* *************************** XXLarge screens ************************************ */
 /* min-width 1921px*/
