@@ -19,6 +19,115 @@
 
  /* min-width 641px and max-width 1024px */
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { }
+ body {
+   background-color: #af1000;
+
+   margin:0;   
+   font-family: "Times New Roman";  
+}
+
+header{
+ margin: 0;
+ padding: 0%;
+ height: 10%;
+ background-color: #7b0d0d;
+ width: 100%;
+ position: fixed;
+}
+
+
+header h1 {
+	color: #FFFFFF;
+	
+	margin: 0;
+}
+
+nav ul ul {
+	display: none;
+}
+
+	nav ul li:hover > ul {
+	   margin: 0;
+		display: block;
+		float: none;
+		padding: 0;
+		background: #7b0d0d;
+		text-decoration: none;
+		
+	}
+nav ul {
+	background-color: #7b0d0d; 
+	text-decoration: none;
+	width: 7%;
+   padding: 0;
+   margin: 0;
+   
+	list-style: none;
+	float:left; 
+	display: inline-table;
+}
+
+nav ul li{
+	 margin:180%;
+	 border-style: solid;
+    border-width: medium;
+    
+    text-align: center;
+  	 margin-left: 0;
+  	 margin-right: 0; 
+}
+nav ul li ul li{
+	 padding:0;
+	 margin:0;
+    border:none;
+	 background: #7b0d0d;
+}
+nav ul li ul li a{
+    
+	 background: #7b0d0d;
+}
+nav ul li ul li a:hover{
+	 background: black;
+}
+nav ul :hover{
+	 background: black;
+}
+nav ul li a{
+	text-decoration: none;
+	padding: 0;
+   margin: 0;
+	color: white;
+
+}
+
+
+
+
+section {
+ margin: 0;
+ float:right;
+ width: 93%; 
+ height: 90%;
+ background-color: white;
+}
+
+img.mapa {
+	 width: 100%;
+    height: 737.5px;
+    
+} 
+
+
+
+footer{
+ 
+ width: 100%;
+ margin-top: 72.3%;
+ background-color: #7b0d0d;
+ color: white; 
+ position: fixed;
+ 
+}
 
 /* *************************** Large screens ************************************** */
 /* min-width 1025px */
@@ -129,6 +238,7 @@ body {
 header{
  margin: 0;
  padding: 0%;
+ height: 10%;
  background-color: #7b0d0d;
  width: 100%;
  position: fixed;
@@ -150,16 +260,17 @@ nav ul ul {
 		display: block;
 		float: none;
 		padding: 0;
+		background: #7b0d0d;
 		text-decoration: none;
+		
 	}
 nav ul {
 	background-color: #7b0d0d; 
 	text-decoration: none;
 	width: 7%;
-
    padding: 0;
    margin: 0;
-  
+   
 	list-style: none;
 	float:left; 
 	display: inline-table;
@@ -167,13 +278,28 @@ nav ul {
 
 nav ul li{
 	 margin:180%;
-  margin-left: 0;
-  margin-right: 0;
-
+	 border-style: solid;
+    border-width: medium;
+    
+    text-align: center;
+  	 margin-left: 0;
+  	 margin-right: 0; 
 }
 nav ul li ul li{
 	 padding:0;
 	 margin:0;
+    border:none;
+	 background: #7b0d0d;
+}
+nav ul li ul li a{
+    
+	 background: #7b0d0d;
+}
+nav ul li ul li a:hover{
+	 background: black;
+}
+nav ul :hover{
+	 background: black;
 }
 nav ul li a{
 	text-decoration: none;
@@ -182,6 +308,7 @@ nav ul li a{
 	color: white;
 
 }
+
 
 
 
@@ -197,12 +324,12 @@ section {
 footer{
  
  width: 100%;
- margin-top: 67%;
+ margin-top: 67.5%;
  background-color: #7b0d0d;
  color: white; 
  position: fixed;
  
-}	
+}
 } 
 
 /* *************************** XXLarge screens ************************************ */
