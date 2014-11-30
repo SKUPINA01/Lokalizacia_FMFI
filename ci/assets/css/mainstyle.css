@@ -8,7 +8,115 @@
 @media only screen { } 
 
 /* min-width 320px and max-width 480px*/
-@media only screen and (min-width: 20em) and (max-width: 30em) { ... }
+@media only screen and (min-width: 20em) and (max-width: 30em) {
+body {
+   background-color: #af1000;
+
+   margin:0;   
+   font-family: "Times New Roman";  
+}
+
+header{
+  margin: 0;
+ padding: 0%;
+ height: 10%;
+ background-color: #7b0d0d;
+ width: 100%;
+ position: fixed;
+}
+
+
+header h1 {
+	color: #FFFFFF;
+	
+	margin: 0;
+}
+
+nav ul ul {
+	display: none;
+}
+
+	nav ul li:hover > ul {
+		display: block;
+	}
+
+nav ul {
+	width: 100%;
+	background: #FCEBD1; 
+	margin-top: 11%;
+	padding:0;
+	list-style: none;
+	position: fixed;
+	display: inline-table;
+}
+	nav ul:after {
+		content: ""; clear: both; display: block;
+	
+	}
+	
+nav ul li {
+	float: left;
+	width:25%;
+}
+	nav ul li:hover {
+		text-decoration: underline;
+		 
+	
+	}
+		nav ul li:hover a {
+			color: black;
+		}
+	
+	nav ul li a {
+		display: block; padding: 0px 40px;
+		color: #757575; text-decoration: none;
+		text-align: center;
+	}
+nav ul ul {
+	margin-top: 0;
+	background: #FCEBD1; border-radius: 0px; padding: 0;
+	width:25%;
+	position: absolute; top: 100%;
+}
+	nav ul ul li {
+		float: none; 
+		
+
+	}
+		nav ul ul li a{
+		text-align: center;
+		
+
+	}
+	
+section {
+ margin-top: 16%;
+ float:left;
+ width: 100%; 
+ height: 90%;
+ background-color: white;
+}
+
+img.mapa {/*NASTAVIT MAPU*/
+	 width: 100%;
+    height: 737.5px;
+    
+} 
+
+
+
+footer{/*UMIESTNENIE PATICKY*/
+ 
+ width: 100%;
+ margin-top: 105.4%;
+ background-color: #7b0d0d;
+ color: white; 
+ position: fixed;
+ 
+}
+
+	
+}
 
 /* min-width 481px and max-width 640px */
 @media only screen and (min-width: 30.063em) and (max-width: 40em) { } 
