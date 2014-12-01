@@ -105,7 +105,7 @@ img.mapa {/*NASTAVIT MAPU*/
 footer{/*UMIESTNENIE PATICKY*/
  
  width: 100%;
- margin-top: 105.4%;
+ bottom: 0;
  background-color: #7b0d0d;
  color: white; 
  position: fixed;
@@ -214,7 +214,7 @@ img.mapa {/*NASTAVIT MAPU*/
 footer{/*UMIESTNENIE PATICKY*/
  
  width: 100%;
- margin-top: 105.4%;
+ bottom: 0;
  background-color: #7b0d0d;
  color: white; 
  position: fixed;
@@ -320,10 +320,10 @@ img.mapa {/*NASTAVIT MAPU*/
 
 
 
-footer{/*UMIESTNENIE PATICKY*/
+footer{
  
  width: 100%;
- margin-top: 105.4%;
+ bottom: 0;
  background-color: #7b0d0d;
  color: white; 
  position: fixed;
@@ -421,6 +421,16 @@ section {
  height: 90%;
  background-color: white;
 }
+
+footer{
+ 
+ width: 100%;
+ bottom: 0;
+ background-color: #7b0d0d;
+ color: white; 
+ position: fixed;
+ 
+}
 } 
 
  /* min-width 641px and max-width 1024px */
@@ -511,7 +521,16 @@ section {
  width: 100%; 
  height: 90%;
  background-color: white;
-}	
+}
+footer{
+ 
+ width: 100%;
+ bottom: 0;
+ background-color: #7b0d0d;
+ color: white; 
+ position: fixed;
+ 
+}
 }
 
 
@@ -612,7 +631,7 @@ section {
 footer{
  
  width: 100%;
- margin-top: 67.5%;
+ bottom: 0;
  background-color: #7b0d0d;
  color: white; 
  position: fixed;
@@ -723,7 +742,7 @@ img.mapa {
 footer{
  
  width: 100%;
- margin-top: 49.5%;
+ bottom: 0;
  background-color: #7b0d0d;
  color: white;
 } 
@@ -824,7 +843,7 @@ section {
 footer{
  
  width: 100%;
- margin-top: 67.5%;
+ bottom: 0;
  background-color: #7b0d0d;
  color: white; 
  position: fixed;
@@ -928,7 +947,7 @@ section {
 footer{
  
  width: 100%;
- margin-top: 67.5%;
+ bottom: 0;
  background-color: #7b0d0d;
  color: white; 
  position: fixed;
