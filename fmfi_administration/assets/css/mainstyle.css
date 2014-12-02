@@ -1,0 +1,106 @@
+@CHARSET "UTF-8";
+  header, section, footer, aside, nav, article, figure, audio, video, canvas  { display:block; }
+.red {
+	color:red;
+}
+
+/* *************************** Small screens ************************************** */
+@media only screen { } 
+
+/* min-width 320px and max-width 480px*/
+@media only screen and (min-width: 20em) and (max-width: 30em) { ... }
+
+/* min-width 481px and max-width 640px */
+@media only screen and (min-width: 30.063em) and (max-width: 40em) { } 
+
+/* *************************** Medium screens ************************************* */
+/* min-width 641px */
+@media only screen and (min-width: 40.063em) { } 
+
+ /* min-width 641px and max-width 1024px */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { }
+
+/* *************************** Large screens ************************************** */
+/* min-width 1025px */
+@media only screen and (min-width: 64.063em) { 
+	
+ body {
+   background-color: #af1000;
+   padding: 0;
+   margin:0;   
+   font-family: "Times New Roman";  
+}
+
+header{
+ padding: 0%;
+ background-color: #7b0d0d;
+ width: 100%;
+ position: fixed;
+}
+
+
+header h1 {
+	color: #FFFFFF;
+	
+	margin: 0;
+}
+
+nav{
+ width: 4.7%;
+ float:left; 
+
+ background-color: #7b0d0d;
+
+  
+ 
+}
+nav a {
+ 
+  display:block;
+  text-align: center;
+  margin:336.1%;
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 1.5em;
+  text-decoration: none;
+  color: white; 
+}
+nav a:hover, nav a:focus {
+	text-decoration: underline;
+}
+section {
+ float:right;
+ width: 95.3%; 
+ height: 90%;
+
+ background-color: white;
+}
+ 
+
+footer{
+ 
+ width: 100%;
+ margin-top: 67%;
+ background-color: #7b0d0d;
+ color: white; 
+ position: fixed;
+ 
+}
+ nav, section{	
+	margin: 0;
+}
+} 
+
+/* min-width 1025px and max-width 1440px */
+@media only screen and (min-width: 64.063em) and (max-width: 90em) { } 
+
+/* *************************** XLarge screens ************************************* */
+/* min-width 1441px */
+@media only screen and (min-width: 90.063em) { } 
+
+/* min-width 1441px and max-width 1920px*/
+@media only screen and (min-width: 90.063em) and (max-width: 120em) { } 
+
+/* *************************** XXLarge screens ************************************ */
+/* min-width 1921px*/
+@media only screen and (min-width: 120.063em) { } 
