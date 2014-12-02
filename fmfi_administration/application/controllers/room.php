@@ -10,16 +10,14 @@ class Room extends CI_Controller {
 	}
 
 	function add($floor) {
-		$this->load->helper(array(
-				'form'));
-		$this->data['floor'] = $floor;
-		$this->load->view('room/add_view');
-	}
-	
-	function logout() {
-		$this->session->unset_userdata('logged_in');
-		session_destroy();
-		redirect('index.php/login', 'refresh');
+		if (isset($this->session->userdata['logged_in'])) {
+			$this->load->helper(array(
+					'form'));
+			$this->data['floor'] = $floor;
+			$this->load->view('room/add_view');
+		} else {
+			redirect('index.php/login', 'refresh');
+		}
 	}
 
 }
