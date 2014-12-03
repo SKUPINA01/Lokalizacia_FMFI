@@ -1,20 +1,19 @@
-body{
-	margin: 0;
-}
 header, footer, container {
 	box-sizing: border-box;
-	padding: 0;
+	
 	}
+
 
 /* *************************** Small screens ************************************** */
 @media only screen {
+
 }
 /* min-width 320px and max-width 480px*/
 @media only screen and (min-width: 20em) and (max-width: 30em) {
 #container { width: 30em;
 	}
 
-header{width: 100%; bottom:0; border-style: solid; border-color: black;height: 5%;	
+header{height: 11.4%;	
 	}
 nav{
 	
@@ -22,7 +21,7 @@ nav{
 section{
 	
 }
-footer{width: 100%;position:fixed; bottom:0; border-style: solid; border-color: orange;height: 5%;
+footer{height: 5%;
 	
 }
 }
@@ -32,7 +31,7 @@ footer{width: 100%;position:fixed; bottom:0; border-style: solid; border-color: 
 #container { width: 40em;
 	}
 
-header{width: 100%; position:fixed;  border-style: solid; border-color: yellow;height: 15.5%;
+header{height: 11.4%;
 	}
 nav{
 	
@@ -40,7 +39,7 @@ nav{
 section{
 	
 }
-footer{width: 100%;;position:fixed; bottom:0; border-style: solid; border-color: #ffc0cb;height: 5%;
+footer{height: 5%;
 	
 }
 }
@@ -49,7 +48,7 @@ footer{width: 100%;;position:fixed; bottom:0; border-style: solid; border-color:
 #container { width: 40.0630em;
 	}
 
-header{width: 100%; position:fixed; border-style: solid; border-color: brown;height: 5%;
+header{height: 5%;
 	}
 nav{
 	
@@ -57,7 +56,7 @@ nav{
 section{
 	
 }
-footer{width: 100%;;position:fixed; bottom:0; border-style: solid; border-color: #ffc0cb;height: 5%;
+footer{height: 5%;
 	
 }
 }
@@ -66,7 +65,7 @@ footer{width: 100%;;position:fixed; bottom:0; border-style: solid; border-color:
 #container { width: 64em;
 	}
 
-header{width: 100%; position:fixed; border-style: solid; border-color: pink;height: 15.4%;
+header{height: 11.4%;
 	}
 nav{
 	
@@ -74,7 +73,7 @@ nav{
 section{
 	
 }
-footer{width: 100%;;position:fixed; bottom:0; border-style: solid; border-color: #ffc0cb;height: 5%;
+footer{height: 5%;
 
 } 
 }
@@ -84,7 +83,7 @@ footer{width: 100%;;position:fixed; bottom:0; border-style: solid; border-color:
 #container { width: 64.063em;
 	}
 
-header{width: 100%; position:fixed; border-style: solid; border-color: #a52a2a;height: 5%;
+header{height: 5%;
 	}
 nav{
 	
@@ -92,7 +91,7 @@ nav{
 section{
 	
 }
-footer{width: 100%;position:fixed; bottom:0; border-style: solid; border-color: #ffc0cb;height: 5%;
+footer{height: 5%;
 	
 }
 }
@@ -101,7 +100,7 @@ footer{width: 100%;position:fixed; bottom:0; border-style: solid; border-color: 
 #container { width: 90em;
 	}
 
-header{width: 100%; position:fixed; border-style: solid; border-color: fuchsia;height: 15.4%;
+header{height: 11.4%;
 	}
 nav{
 	
@@ -109,7 +108,7 @@ nav{
 section{
 	
 }
-footer{width: 100%;position:fixed; bottom:0; border-style: solid; border-color: gray;height: 5%;
+footer{height: 5%;
 	
 }
 }
@@ -120,7 +119,7 @@ footer{width: 100%;position:fixed; bottom:0; border-style: solid; border-color: 
 #container { width: 90.96em;
 	}
 
-header{width: 100%; position:fixed; border-style: solid; border-color: lime;height: 5%;
+header{height: 5%;
 	}
 nav{
 	
@@ -128,7 +127,7 @@ nav{
 section{
 	
 }
-footer{width: 100%;position:fixed; bottom:0; border-style: solid; border-color: Red;height: 5%;
+footer{height: 5%;
 	
 }
 } 
@@ -137,7 +136,7 @@ footer{width: 100%;position:fixed; bottom:0; border-style: solid; border-color: 
 #container { width: 120em;
 	}
 
-header{width: 100%; position:fixed; border-style: solid; border-color: green;height:15.4%;
+header{height:11.4%;
 	}
 nav{
 	
@@ -145,7 +144,7 @@ nav{
 section{
 	
 }
-footer{width: 100%;position:fixed; bottom:0; border-style: solid; border-color: aqua;height: 5%;
+footer{height: 5%;
 	
 }
 }
@@ -155,7 +154,7 @@ footer{width: 100%;position:fixed; bottom:0; border-style: solid; border-color: 
 #container { 
 	}
 
-header{ position:fixed; border-style: solid; border-color: blue;height: 15%;
+header{ height: 11.4%;
 	}
 nav{
 	
@@ -163,16 +162,30 @@ nav{
 section{
 	
 }
-footer{width: 100%; position:fixed; bottom:0; border-style: solid; border-color: Red;height: 5%;
+footer{ height: 5%;
 	
 }
 }
+/*doriesit navvigaciu  farby sirku navigacie sekcie*/
+/********************************************************************************************************************************/
+/**body*/
+body{
+	margin: 0;
+}
+/********************************************************************************************************************************/
+/**header*/
 
+header{
+	top: 0;
+	position: fixed;
+	width: 100%;
+	border-style: solid; border-color: red;
+}
+/*farby stranky*/
 /*#7b0d0d #FCEBD1*/
 
 
 
-/**********************************************************************************************************************************/
 
 
 
@@ -186,3 +199,14 @@ footer{width: 100%; position:fixed; bottom:0; border-style: solid; border-color:
 
 /********************************************************************************************************************************/
 /**Navigacia*/
+
+
+/********************************************************************************************************************************/
+/**footer*/
+
+footer{
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+	border-style: solid; border-color: red;
+}
