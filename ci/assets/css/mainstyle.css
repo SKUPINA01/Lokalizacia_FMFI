@@ -1,13 +1,11 @@
-@CHARSET "UTF-8";
-  header, section, footer, aside, nav, article, figure, audio, video, canvas  { display:block; }
-.red {
-	color:red;
+body{
+	margin: 0;
 }
-
 header, footer, container {
 	box-sizing: border-box;
+	padding: 0;
 	}
-}
+
 /* *************************** Small screens ************************************** */
 @media only screen {
 }
@@ -15,8 +13,8 @@ header, footer, container {
 @media only screen and (min-width: 20em) and (max-width: 30em) {
 #container { width: 30em;
 	}
-}
-header{width: 100%; position:fixed; border-style: solid; border-color: Red;height: 5%;
+
+header{width: 100%; bottom:0; border-style: solid; border-color: black;height: 5%;	
 	}
 nav{
 	
@@ -24,7 +22,7 @@ nav{
 section{
 	
 }
-footer{width: 100%;position:fixed; bottom:0; border-style: solid; border-color: Red;height: 5%;
+footer{width: 100%;position:fixed; bottom:0; border-style: solid; border-color: orange;height: 5%;
 	
 }
 }
@@ -33,8 +31,8 @@ footer{width: 100%;position:fixed; bottom:0; border-style: solid; border-color: 
 @media only screen and (min-width: 30.063em) and (max-width: 40em) { 
 #container { width: 40em;
 	}
-}
-header{width: 100%; position:fixed;  border-style: solid; border-color: Red;height: 5%;
+
+header{width: 100%; position:fixed;  border-style: solid; border-color: yellow;height: 15.5%;
 	}
 nav{
 	
@@ -42,7 +40,7 @@ nav{
 section{
 	
 }
-footer{width: 100%;
+footer{width: 100%;;position:fixed; bottom:0; border-style: solid; border-color: #ffc0cb;height: 5%;
 	
 }
 }
@@ -50,8 +48,8 @@ footer{width: 100%;
 @media only screen and (min-width: 40.063em) {
 #container { width: 40.0630em;
 	}
-}
-header{width: 100%; position:fixed; border-style: solid; border-color: Red;height: 5%;
+
+header{width: 100%; position:fixed; border-style: solid; border-color: brown;height: 5%;
 	}
 nav{
 	
@@ -59,7 +57,7 @@ nav{
 section{
 	
 }
-footer{width: 100%;
+footer{width: 100%;;position:fixed; bottom:0; border-style: solid; border-color: #ffc0cb;height: 5%;
 	
 }
 }
@@ -67,8 +65,8 @@ footer{width: 100%;
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
 #container { width: 64em;
 	}
-}
-header{width: 100%; position:fixed; border-style: solid; border-color: Red;height: 5%;
+
+header{width: 100%; position:fixed; border-style: solid; border-color: pink;height: 15.4%;
 	}
 nav{
 	
@@ -76,7 +74,7 @@ nav{
 section{
 	
 }
-footer{width: 100%;
+footer{width: 100%;;position:fixed; bottom:0; border-style: solid; border-color: #ffc0cb;height: 5%;
 
 } 
 }
@@ -85,8 +83,8 @@ footer{width: 100%;
 @media only screen and (min-width: 64.063em) { 
 #container { width: 64.063em;
 	}
-}
-header{width: 100%; position:fixed; border-style: solid; border-color: Red;height: 5%;
+
+header{width: 100%; position:fixed; border-style: solid; border-color: #a52a2a;height: 5%;
 	}
 nav{
 	
@@ -94,7 +92,7 @@ nav{
 section{
 	
 }
-footer{width: 100%;position:fixed; bottom:0; border-style: solid; border-color: Red;height: 5%;
+footer{width: 100%;position:fixed; bottom:0; border-style: solid; border-color: #ffc0cb;height: 5%;
 	
 }
 }
@@ -102,8 +100,8 @@ footer{width: 100%;position:fixed; bottom:0; border-style: solid; border-color: 
 @media only screen and (min-width: 64.063em) and (max-width: 90em) {
 #container { width: 90em;
 	}
-}
-header{width: 100%; position:fixed; border-style: solid; border-color: Red;
+
+header{width: 100%; position:fixed; border-style: solid; border-color: fuchsia;height: 15.4%;
 	}
 nav{
 	
@@ -111,7 +109,7 @@ nav{
 section{
 	
 }
-footer{width: 100%;position:fixed; bottom:0; border-style: solid; border-color: Red;height: 5%;
+footer{width: 100%;position:fixed; bottom:0; border-style: solid; border-color: gray;height: 5%;
 	
 }
 }
@@ -121,8 +119,8 @@ footer{width: 100%;position:fixed; bottom:0; border-style: solid; border-color: 
 @media only screen and (min-width: 90.063em) { 
 #container { width: 90.96em;
 	}
-}
-header{width: 100%; position:fixed; border-style: solid; border-color: Red;height: 7%;
+
+header{width: 100%; position:fixed; border-style: solid; border-color: lime;height: 5%;
 	}
 nav{
 	
@@ -138,8 +136,8 @@ footer{width: 100%;position:fixed; bottom:0; border-style: solid; border-color: 
 @media only screen and (min-width: 90.063em) and (max-width: 120em) { 
 #container { width: 120em;
 	}
-}
-header{width: 100%; position:fixed; border-style: solid; border-color: blue;height: 10%;
+
+header{width: 100%; position:fixed; border-style: solid; border-color: green;height:15.4%;
 	}
 nav{
 	
@@ -147,7 +145,7 @@ nav{
 section{
 	
 }
-footer{width: 100%;position:fixed; bottom:0; border-style: solid; border-color: Red;height: 5%;
+footer{width: 100%;position:fixed; bottom:0; border-style: solid; border-color: aqua;height: 5%;
 	
 }
 }
@@ -156,8 +154,8 @@ footer{width: 100%;position:fixed; bottom:0; border-style: solid; border-color: 
 @media only screen and (min-width: 120.063em) { 
 #container { 
 	}
-}
-header{ position:fixed; border-style: solid; border-color: red;height: 10%; 
+
+header{ position:fixed; border-style: solid; border-color: blue;height: 15%;
 	}
 nav{
 	
@@ -188,5 +186,3 @@ footer{width: 100%; position:fixed; bottom:0; border-style: solid; border-color:
 
 /********************************************************************************************************************************/
 /**Navigacia*/
-
-
