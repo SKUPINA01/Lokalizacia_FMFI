@@ -1,4 +1,4 @@
-/*to do zmenit farbi s funkcnit rolovanie navigacie aj responzivne formular v headery*/
+/*upravit sirku formular v headery*/
 header, footer, container {
 	box-sizing: border-box;
 	
@@ -17,10 +17,10 @@ header, footer, container {
 header{height: 11.4%;	
 	}
 
-nav{top: 11.4%%;height: 90%;/*aby bola prilepena k headeru*/
+nav{top: 11.4%%;height: 83.7%;width:10%;/*top aby bola navigacia prilepena k headeru*/
 	
 }
-section{width: 50%;
+section{width: 90%;height: 84%;left: 10%;top: 5%;
 	
 }
 footer{height: 5%;
@@ -36,10 +36,10 @@ footer{height: 5%;
 header{height: 11.4%;
 	}
 
-nav{top:11.4%;height: 90%;
+nav{top:11.4%;height: 83.6%;width:10%;
 	
 }
-section{width: 50%;
+section{width: 83.6%;height: 83.6%;left: 10%;top: 11.4%;
 	
 }
 footer{height: 5%;
@@ -54,10 +54,10 @@ footer{height: 5%;
 header{height: 5%;
 	}
 
-nav{top: 5%;height: 90%;
+nav{top: 5%;height: 90%;width:10%;
 	
 }
-section{width: 50%;
+section{width: 90%;height: 84%;left: 10%;top: 5%;
 	
 }
 footer{height: 5%;
@@ -71,10 +71,10 @@ footer{height: 5%;
 
 header{height: 11.4%;
 	}
-nav{top: 11.4%;height: 90%;
+nav{top: 11.4%;height: 84%;width:10%;
 	
 }
-section{width: 50%;
+section{width: 90%;height: 84%;left: 10%;top: 11.4%;
 	
 }
 footer{height: 5%;
@@ -93,7 +93,7 @@ header{height: 5%;
 nav{top: 5%;height: 90%;
 	
 }
-section{width: 50%;
+section{width: 93%;height: 90%;left: 7%;top: 11.4%;
 	
 }
 footer{height: 5%;
@@ -108,7 +108,10 @@ footer{height: 5%;
 header{height: 11.4%;
 	}
 
-nav{top: 11.4%;height: 90%;
+nav{top: 11.4%;height: 84%;width:8.6%;
+	
+}
+section{width: 91.6%;height: 90%;left: 8.6%;top: 11.4%;
 	
 }
 
@@ -125,7 +128,10 @@ footer{height: 5%;
 
 header{height: 5%;
 	}
-nav{top: 5%;height: 90%;
+nav{top: 5%;height: 90%;width:5%;
+section{width: 7%;height: 90%;left: 7%;top: 11.4%;
+	
+}
 	
 }
 
@@ -140,7 +146,10 @@ footer{height: 5%;
 
 header{height:11.4%;
 	}
-nav {top: 11.4%;height: 90%;
+nav {top: 11.4%;height: 83.6%;width:7%;
+	
+}
+section{width: 93%;height: 90%;left: 7%;top: 11.4%;
 	
 }
 
@@ -157,19 +166,22 @@ footer{height: 5%;
 header{ height: 11.4%;
 	}
 
-nav {top: 11.4%;height: 90%;
+nav {top: 11.4%;height: 90%;width:5%;
 	
 }
-
+section{width: 95%;height: 90%;left: 5%;
+	
+}
 footer{ height: 5%;
 	
 }
 }
-
+/*doriesit navvigaciu  farby sa budu menit/
 /********************************************************************************************************************************/
 /**body*/
 body{
 	margin: 0;
+	font-family: "Times New Roman", arial, verdena;
 }
 /********************************************************************************************************************************/
 /**header*/
@@ -178,11 +190,23 @@ header{
 	top: 0;
 	position: fixed;
 	width: 100%;
-	background: #7b0d0d;
+	color: white;
+	background: black;
+	background: linear-gradient(top, black 0%, #7b0d0d 100%);
+	background: -moz-linear-gradient(top, black 0%, #7b0d0d 100%);
+	background: -webkit-linear-gradient(top, black 0%, #7b0d0d 100%);
+	
+}file:///C:/Documents%20and%20Settings/Palka/My%20Documents/Downloads/m1.jpg
+header h1{
+	top: 0;
+	position: fixed;
 
 	
 }
-
+header form {
+	position:fixed;
+	top:10%:
+}
 
 /*farby stranky*/
 /*#7b0d0d #FCEBD1*/
@@ -204,18 +228,62 @@ header{
 /**Navigacia*/
 
 nav {
-	background: #FCEBD1;
-	
+	background: black;
+	background: linear-gradient(bottom, black 0%, #7b0d0d 100%);
+	background: -moz-linear-gradient(bottom, black 0%, #7b0d0d 100%);
+	background: -webkit-linear-gradient(bottom, black 0%, #7b0d0d 100%);
+
+	border-radius:10px;
+	border-right:none; 
 	position: fixed;
 }
 nav ul ul{
 	display: none;
 }
-nav ul li:hover{
-	
+nav ul{
+	padding: 0%;
+   text-align: center; 
+	list-style: none;
+	text-decoration: none;
 
 }
+nav ul a{
+	color: white;
+	text-decoration: none;
 
+}
+nav ul li{
+	margin: 0%;
+
+
+}
+nav ul li ul li{
+	margin: 0%;
+		margin-left: 0;
+	margin-right: 0;
+	padding: 0%;
+
+	
+}
+nav ul li:hover{
+background: linear-gradient(bottom, black 0%, #7b0d0d 100%);
+	background: -moz-linear-gradient(bottom, black 0%, #7b0d0d 100%);
+	background: -webkit-linear-gradient(bottom, black 0%, #7b0d0d 100%);
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	border-radius:5px;	
+}
+nav ul li:hover> ul {
+display : block;
+background: linear-gradient(bottom, black 0%, #7b0d0d 100%);
+	background: -moz-linear-gradient(bottom, black 0%, #7b0d0d 100%);
+	background: -webkit-linear-gradient(bottom, black 0%, #7b0d0d 100%);
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	border-radius:5px;
+padding: 0;
+}
+section{
+	position: fixed;
+}
 /********************************************************************************************************************************/
 /**footer*/
 
@@ -223,4 +291,9 @@ footer{
 	bottom: 0;
 	position: fixed;
 	width: 100%;
-	background: #7b0d0d;
+	background: black;
+	background: linear-gradient(top, black 0%, #7b0d0d 100%);
+	background: -moz-linear-gradient(top, black 0%, #7b0d0d 100%);
+	background: -webkit-linear-gradient(top, black 0%, #7b0d0d 100%);
+	color: white;
+}
