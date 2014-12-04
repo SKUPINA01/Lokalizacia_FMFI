@@ -1,3 +1,4 @@
+/*to do zmenit farbi s funkcnit rolovanie navigacie aj responzivne formular v headery*/
 header, footer, container {
 	box-sizing: border-box;
 	
@@ -15,10 +16,11 @@ header, footer, container {
 
 header{height: 11.4%;	
 	}
-nav{
+
+nav{top: 11.4%%;height: 90%;/*aby bola prilepena k headeru*/
 	
 }
-section{
+section{width: 50%;
 	
 }
 footer{height: 5%;
@@ -33,10 +35,11 @@ footer{height: 5%;
 
 header{height: 11.4%;
 	}
-nav{
+
+nav{top:11.4%;height: 90%;
 	
 }
-section{
+section{width: 50%;
 	
 }
 footer{height: 5%;
@@ -50,10 +53,11 @@ footer{height: 5%;
 
 header{height: 5%;
 	}
-nav{
+
+nav{top: 5%;height: 90%;
 	
 }
-section{
+section{width: 50%;
 	
 }
 footer{height: 5%;
@@ -67,10 +71,10 @@ footer{height: 5%;
 
 header{height: 11.4%;
 	}
-nav{
+nav{top: 11.4%;height: 90%;
 	
 }
-section{
+section{width: 50%;
 	
 }
 footer{height: 5%;
@@ -85,10 +89,11 @@ footer{height: 5%;
 
 header{height: 5%;
 	}
-nav{
+
+nav{top: 5%;height: 90%;
 	
 }
-section{
+section{width: 50%;
 	
 }
 footer{height: 5%;
@@ -102,12 +107,11 @@ footer{height: 5%;
 
 header{height: 11.4%;
 	}
-nav{
+
+nav{top: 11.4%;height: 90%;
 	
 }
-section{
-	
-}
+
 footer{height: 5%;
 	
 }
@@ -121,12 +125,10 @@ footer{height: 5%;
 
 header{height: 5%;
 	}
-nav{
+nav{top: 5%;height: 90%;
 	
 }
-section{
-	
-}
+
 footer{height: 5%;
 	
 }
@@ -138,12 +140,10 @@ footer{height: 5%;
 
 header{height:11.4%;
 	}
-nav{
+nav {top: 11.4%;height: 90%;
 	
 }
-section{
-	
-}
+
 footer{height: 5%;
 	
 }
@@ -156,17 +156,16 @@ footer{height: 5%;
 
 header{ height: 11.4%;
 	}
-nav{
+
+nav {top: 11.4%;height: 90%;
 	
 }
-section{
-	
-}
+
 footer{ height: 5%;
 	
 }
 }
-/*doriesit navvigaciu  farby sirku navigacie sekcie*/
+
 /********************************************************************************************************************************/
 /**body*/
 body{
@@ -179,8 +178,12 @@ header{
 	top: 0;
 	position: fixed;
 	width: 100%;
-	border-style: solid; border-color: red;
+	background: #7b0d0d;
+
+	
 }
+
+
 /*farby stranky*/
 /*#7b0d0d #FCEBD1*/
 
@@ -200,6 +203,18 @@ header{
 /********************************************************************************************************************************/
 /**Navigacia*/
 
+nav {
+	background: #FCEBD1;
+	
+	position: fixed;
+}
+nav ul ul{
+	display: none;
+}
+nav ul li:hover{
+	
+
+}
 
 /********************************************************************************************************************************/
 /**footer*/
@@ -208,5 +223,4 @@ footer{
 	bottom: 0;
 	position: fixed;
 	width: 100%;
-	border-style: solid; border-color: red;
-}
+	background: #7b0d0d;
