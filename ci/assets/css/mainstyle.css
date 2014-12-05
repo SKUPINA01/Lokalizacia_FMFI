@@ -7,9 +7,7 @@ header, footer, container {
 /* *************************** Small screens ************************************** */
 @media only screen {
 
-}
 /* min-width 320px and max-width 480px*/
-/*treba doriesit formular*/
 @media only screen and (min-width: 20em) and (max-width: 30em) {
 #container { width: 30em;
 	}
@@ -20,7 +18,7 @@ header{height: 11.4%;
 nav{top: 11.4%%;height: 83.7%;width:10%;/*top aby bola navigacia prilepena k headeru*/
 	
 }
-section{width: 90%;height: 84%;left: 10%;top: 5%;
+section{width: 90%;height: 84%;left: 10%;top: 11.4%;
 	
 }
 footer{height: 5%;
