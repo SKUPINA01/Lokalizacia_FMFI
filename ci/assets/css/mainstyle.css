@@ -1,4 +1,5 @@
 /*final*/
+
 header, footer, container {
 	box-sizing: border-box;
 	
@@ -86,10 +87,10 @@ footer{height: 5%;
 
 header{height: 14.4%;
 	}
-nav{top: 14.4%;height: 81%;width:10%;
+nav{top: 14.4%;height: 80.7%;width:10%;
 	
 }
-section{width: 90%;height: 81%;left: 10%;top: 14.4%;
+section{width: 90%;height: 80.7%;left: 10%;top: 14.4%;
 	
 }
 footer{height: 5%;
@@ -123,10 +124,10 @@ footer{height: 5%;
 header{height: 14.4%;
 	}
 
-nav{top: 14.4%;height: 81%;width:8.6%;
+nav{top: 14.4%;height: 80.7%;width:8.6%;
 	
 }
-section{width: 91.6%;height: 81%;left: 8.6%;top: 14.4%;
+section{width: 91.6%;height: 80.7%;left: 8.6%;top: 14.4%;
 	
 }
 
