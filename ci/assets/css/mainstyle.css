@@ -1,3 +1,4 @@
+/*final*/
 header, footer, container {
 	box-sizing: border-box;
 	
@@ -6,19 +7,35 @@ header, footer, container {
 
 /* *************************** Small screens ************************************** */
 @media only screen {
-
-/* min-width 320px and max-width 480px*/
-@media only screen and (min-width: 20em) and (max-width: 30em) {
 #container { width: 30em;
 	}
 
 header{height: 11.4%;	
 	}
 
-nav{top: 11.4%%;height: 83.7%;width:10%;/*top aby bola navigacia prilepena k headeru*/
+nav{top: 11.4%;height: 83.7%;width:18%;/*top aby bola navigacia prilepena k headeru*/
 	
 }
-section{width: 90%;height: 84%;left: 10%;top: 11.4%;
+section{width: 84%;height: 84%;left: 18%;top: 11.4%;
+
+}
+footer{height: 5%;
+	
+}
+}
+
+/* min-width 320px and max-width 480px*/
+@media only screen and (min-width: 20em) and (max-width: 30em) {
+#container { width: 30em;
+	}
+
+header{height: 14.4%;	
+	}
+
+nav{top: 14.4%;height: 80.7%;width:18%;/*top aby bola navigacia prilepena k headeru*/
+	
+}
+section{width: 85%;height: 80.7%;left: 18%;top: 14.4%;
 	
 }
 footer{height: 5%;
@@ -31,13 +48,13 @@ footer{height: 5%;
 #container { width: 40em;
 	}
 
-header{height: 11.4%;
+header{height: 14.4%;
 	}
 
-nav{top:11.4%;height: 83.6%;width:10%;
+nav{top:14.4%;height: 80.7%;width:15%;
 	
 }
-section{width: 83.6%;height: 83.6%;left: 10%;top: 11.4%;
+section{width: 84%;height: 80.7%;left: 15%;top: 14.4%;
 	
 }
 footer{height: 5%;
@@ -49,30 +66,30 @@ footer{height: 5%;
 #container { width: 40.0630em;
 	}
 
-header{height: 5%;
+header{height: 7%;
 	}
 
-nav{top: 5%;height: 90%;width:10%;
+nav{top: 7%;height: 82%;width:10%;
 	
 }
-section{width: 90%;height: 84%;left: 10%;top: 5%;
+section{width: 90%;height: 82%;left: 10%;top: 7%;
 	
 }
 footer{height: 5%;
 	
-}
+}file:///C:/Documents%20and%20Settings/Palka/My%20Documents/Downloads/m1.jpg
 }
  /* min-width 641px and max-width 1024px */
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
 #container { width: 64em;
 	}
 
-header{height: 11.4%;
+header{height: 14.4%;
 	}
-nav{top: 11.4%;height: 84%;width:10%;
+nav{top: 14.4%;height: 81%;width:10%;
 	
 }
-section{width: 90%;height: 84%;left: 10%;top: 11.4%;
+section{width: 90%;height: 81%;left: 10%;top: 14.4%;
 	
 }
 footer{height: 5%;
@@ -85,10 +102,10 @@ footer{height: 5%;
 #container { width: 64.063em;
 	}
 
-header{height: 5%;
+header{height: 7%;
 	}
 
-nav{top: 5%;height: 90%;
+nav{top: 7%;height: 90%;
 	
 }
 section{width: 93%;height: 90%;left: 7%;top: 11.4%;
@@ -103,13 +120,13 @@ footer{height: 5%;
 #container { width: 90em;
 	}
 
-header{height: 11.4%;
+header{height: 14.4%;
 	}
 
-nav{top: 11.4%;height: 84%;width:8.6%;
+nav{top: 14.4%;height: 81%;width:8.6%;
 	
 }
-section{width: 91.6%;height: 90%;left: 8.6%;top: 11.4%;
+section{width: 91.6%;height: 81%;left: 8.6%;top: 14.4%;
 	
 }
 
@@ -127,11 +144,12 @@ footer{height: 5%;
 header{height: 5%;
 	}
 nav{top: 5%;height: 90%;width:5%;
+}
 section{width: 7%;height: 90%;left: 7%;top: 11.4%;
 	
 }
 	
-}
+
 
 footer{height: 5%;
 	
@@ -142,12 +160,12 @@ footer{height: 5%;
 #container { width: 120em;
 	}
 
-header{height:11.4%;
+header{height:14.4%;
 	}
-nav {top: 11.4%;height: 83.6%;width:7%;
+nav {top: 14.4%;height: 80.7%;width:7%;
 	
 }
-section{width: 93%;height: 90%;left: 7%;top: 11.4%;
+section{width: 93%;height: 80.7%;left: 7%;top: 14.4%;
 	
 }
 
@@ -161,20 +179,21 @@ footer{height: 5%;
 #container { 
 	}
 
-header{ height: 11.4%;
+header{ height: 14.4%;
 	}
 
-nav {top: 11.4%;height: 90%;width:5%;
+nav {top: 14.4%;height: 80.7%;width:7%;
 	
 }
-section{width: 95%;height: 90%;left: 5%;
+section{width: 93%;height: 80.7%;left: 7%;top: 14.4%;
 	
 }
-footer{ height: 5%;
+
+footer{height: 5%;
 	
 }
-}file:///C:/Documents%20and%20Settings/Palka/My%20Documents/Downloads/Lokalizacia%20FMFI%20UK_files/m1.jpg
-/*doriesit navvigaciu  farby sa budu menit/
+}
+
 /********************************************************************************************************************************/
 /**body*/
 body{
@@ -208,7 +227,7 @@ header form {
 }
 
 /********************************************************************************************************************************/
-/**Navigacia*/
+/**Nav*/
 
 nav {
 	background: black;
@@ -264,6 +283,8 @@ background: linear-gradient(bottom, black 0%, #7b0d0d 100%);
 	border-radius:5px;
 padding: 0;
 }
+/********************************************************************************************************************************/
+/**section*/
 section{
 	position: fixed;
 }
