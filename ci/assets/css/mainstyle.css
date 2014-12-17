@@ -73,6 +73,7 @@ header{height: 7%;
 nav{top: 7%;height: 82%;width:10%;
 	
 }
+
 section{width: 90%;height: 82%;left: 10%;top: 7%;
 	
 }
@@ -90,6 +91,7 @@ header{height: 14.4%;
 nav{top: 14.4%;height: 80.7%;width:10%;
 	
 }
+
 section{width: 90%;height: 80.7%;left: 10%;top: 14.4%;
 	
 }
@@ -236,14 +238,17 @@ nav {
 	background: -moz-linear-gradient(bottom, black 0%, #7b0d0d 100%);
 	background: -webkit-linear-gradient(bottom, black 0%, #7b0d0d 100%);
 
-	border-radius:10px;
-	border-right:none; 
+	
 	position: fixed;
 }
 nav ul ul{
 	display: none;
 }
+nav ul ul{
+	display: none;
+}
 nav ul{
+	margin: 0%;
 	padding: 0%;
    text-align: center; 
 	list-style: none;
@@ -256,33 +261,39 @@ nav ul a{
 
 }
 nav ul li{
-	margin-top: 70%;
-
+	
+	background: linear-gradient(bottom, black 0%, #7b0d0d 100%);
+	background: -moz-linear-gradient(bottom, black 0%, #7b0d0d 100%);
+	background: -webkit-linear-gradient(bottom, black 0%, #7b0d0d 100%);
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	border-radius:5px;	
+	padding: 15%;
+	padding-left: 0;
+	padding-right: 0;
 
 }
 nav ul li ul li{
 	margin: 0%;
 		margin-left: 0;
 	margin-right: 0;
-	padding: 0%;
 
-	
-}
-nav ul li:hover{
-background: linear-gradient(bottom, black 0%, #7b0d0d 100%);
+	background: linear-gradient(bottom, black 0%, #7b0d0d 100%);
 	background: -moz-linear-gradient(bottom, black 0%, #7b0d0d 100%);
 	background: -webkit-linear-gradient(bottom, black 0%, #7b0d0d 100%);
 	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
 	border-radius:5px;	
+	padding: 10%;
+	padding-left: 0;
+	padding-right: 0;
+	
+}
+nav ul li a:hover{
+ text-decoration: underline;
 }
 nav ul li:hover> ul {
-display : block;
-background: linear-gradient(bottom, black 0%, #7b0d0d 100%);
-	background: -moz-linear-gradient(bottom, black 0%, #7b0d0d 100%);
-	background: -webkit-linear-gradient(bottom, black 0%, #7b0d0d 100%);
-	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
-	border-radius:5px;
-padding: 0;
+	display : block;
+
+	padding: 0;
 }
 /********************************************************************************************************************************/
 /**section*/
