@@ -1,203 +1,93 @@
-/*pridane tlacidla v navigacii nutna uprava pre male rozlisenia*/
-
-header, footer, container {
-	box-sizing: border-box;
-	
-	}
-
-
+header, footer, #container {box-sizing: border-box;}
 /* *************************** Small screens ************************************** */
 @media only screen {
-#container { width: 30em;
-	}
-
-header{height: 11.4%;	
-	}
-
-nav{top: 11.4%;height: 83.7%;width:18%;/*top aby bola navigacia prilepena k headeru*/
-	
+	#container { position: ; top: ; left:; width: 30em; height: ;}
+	header{height: 11.4%;	}
+	/*top aby bola navigacia prilepena k headeru*/
+	nav{top: 11.4%;height: 83.7%;width:18%;}
+	section{width: 84%;height: 84%;left: 18%;top: 11.4%;}
+	footer{height: 5%;}
 }
-section{width: 84%;height: 84%;left: 18%;top: 11.4%;
-
-}
-footer{height: 5%;
-	
-}
-}
-
 /* min-width 320px and max-width 480px*/
 @media only screen and (min-width: 20em) and (max-width: 30em) {
-#container { width: 30em;
-	}
-
-header{height: 14.4%;	
-	}
-
-nav{top: 14.4%;height: 80.7%;width:18%;/*top aby bola navigacia prilepena k headeru*/
-	
-}
-section{width: 85%;height: 80.7%;left: 18%;top: 14.4%;
-	
-}
-footer{height: 5%;
-	
-}
+#container { width: 30em;}
+header{height: 14.4%;	}
+nav{top: 14.4%;height: 80.7%;width:18%;/*top aby bola navigacia prilepena k headeru*/}
+section{width: 85%;height: 80.7%;left: 18%;top: 14.4%;	}
+footer{height: 5%;}
 }
 
 /* min-width 481px and max-width 640px */
 @media only screen and (min-width: 30.063em) and (max-width: 40em) { 
-#container { width: 40em;
-	}
-
-header{height: 14.4%;
-	}
-
-nav{top:14.4%;height: 80.7%;width:15%;
-	
-}
-section{width: 84%;height: 80.7%;left: 15%;top: 14.4%;
-	
-}
-footer{height: 5%;
-	
-}
+#container { width: 40em;}
+header{height: 14.4%;}
+nav{top:14.4%;height: 80.7%;width:15%;	}
+section{width: 84%;height: 80.7%;left: 15%;top: 14.4%;}
+footer{height: 5%;}
 }
 /* min-width 641px */
 @media only screen and (min-width: 40.063em) {
-#container { width: 40.0630em;
-	}
-
-header{height: 7%;
-	}
-
-nav{top: 7%;height: 82%;width:10%;
-	
-}
-
-section{width: 90%;height: 82%;left: 10%;top: 7%;
-	
-}
-footer{height: 5%;
-	
-}file:///C:/Documents%20and%20Settings/Palka/My%20Documents/Downloads/m1.jpg
+#container { width: 40.0630em;}
+header{height: 7%;}
+nav{top: 7%;height: 82%;width:10%;	}
+section{width: 90%;height: 82%;left: 10%;top: 7%;	}
+footer{height: 5%;}
 }
  /* min-width 641px and max-width 1024px */
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-#container { width: 64em;
-	}
-
-header{height: 14.4%;
-	}
-nav{top: 14.4%;height: 80.7%;width:10%;
-	
-}
-
-section{width: 90%;height: 80.7%;left: 10%;top: 14.4%;
-	
-}
-footer{height: 5%;
-
-} 
+#container { width: 64em;}
+header{height: 14.4%;}
+nav{top: 14.4%;height: 80.7%;width:10%;}
+section{width: 90%;height: 80.7%;left: 10%;top: 14.4%;}
+footer{height: 5%;} 
 }
 /* *************************** Large screens ************************************** */
 /* min-width 1025px */
 @media only screen and (min-width: 64.063em) { 
-#container { width: 64.063em;
-	}
-
-header{height: 7%;
-	}
-
-nav{top: 7%;height: 90%;
-	
-}
-section{width: 93%;height: 90%;left: 7%;top: 11.4%;
-	
-}
-footer{height: 5%;
-	
-}
+#container { width: 64.063em;}
+header{height: 7%;}
+nav{top: 7%;height: 90%;}
+section{width: 93%;height: 90%;left: 7%;top: 11.4%;}
+footer{height: 5%;}
 }
 /* min-width 1025px and max-width 1440px */
 @media only screen and (min-width: 64.063em) and (max-width: 90em) {
-#container { width: 90em;
-	}
-
-header{height: 14.4%;
-	}
-
-nav{top: 14.4%;height: 80.7%;width:8.6%;
-	
-}
-section{width: 91.6%;height: 80.7%;left: 8.6%;top: 14.4%;
-	
-}
-
-footer{height: 5%;
-	
-}
+#container { width: 90em;}
+header{height: 14.4%;}
+nav{top: 14.4%;height: 80.7%;width:8.6%;}
+section{width: 91.6%;height: 80.7%;left: 8.6%;top: 14.4%;}
+footer{height: 5%;	}
 }
 
 /* *************************** XLarge screens ************************************* */
 /* min-width 1441px */
 @media only screen and (min-width: 90.063em) { 
-#container { width: 90.96em;
-	}
+#container { width: 90.96em;}
 
-header{height: 5%;
-	}
-nav{top: 5%;height: 90%;width:5%;
-}
-section{width: 7%;height: 90%;left: 7%;top: 11.4%;
-	
-}
-	
-
-
-footer{height: 5%;
-	
-}
+header{height: 5%;}
+nav{top: 5%;height: 90%;width:5%;}
+section{width: 7%;height: 90%;left: 7%;top: 11.4%;	}
+footer{height: 5%;}
 } 
 /* min-width 1441px and max-width 1920px*/
 @media only screen and (min-width: 90.063em) and (max-width: 120em) { 
-#container { width: 120em;
-	}
-
-header{height:14.4%;
-	}
-nav {top: 14.4%;height: 80.7%;width:7%;
-	
-}
-section{width: 93%;height: 80.7%;left: 7%;top: 14.4%;
-	
-}
-
-footer{height: 5%;
-	
-}
+#container { width: 120em;}
+header{height:14.4%;}
+nav {top: 14.4%;height: 80.7%;width:7%;}
+section{width: 93%;height: 80.7%;left: 7%;top: 14.4%;}
+footer{height: 5%;	}
 }
 /* *************************** XXLarge screens ************************************ */
 /* min-width 1921px*/
 @media only screen and (min-width: 120.063em) { 
-#container { 
-	}
-
-header{ height: 14.4%;
-	}
-
-nav {top: 14.4%;height: 80.7%;width:7%;
-	
-}
-section{width: 93%;height: 80.7%;left: 7%;top: 14.4%;
-	
+#container { }
+header{ height: 14.4%;}
+nav {top: 14.4%;height: 80.7%;width:7%;}
+section{width: 93%;height: 80.7%;left: 7%;top: 14.4%;}
+footer{height: 5%;}
 }
 
-footer{height: 5%;
-	
-}
-}
-
-/********************************************************************************************************************************/
+/**************************************************styly, background, colors****************************************************************************/
 /**body*/
 body{
 	margin: 0;
@@ -241,9 +131,7 @@ nav {
 	
 	position: fixed;
 }
-nav ul ul{
-	display: none;
-}
+
 nav ul ul{
 	display: none;
 }
@@ -288,7 +176,7 @@ nav ul li ul li{
 	
 }
 nav ul li a:hover{
- text-decoration: underline;
+ color:orange;
 }
 nav ul li:hover> ul {
 	display : block;
