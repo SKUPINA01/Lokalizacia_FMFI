@@ -1,4 +1,4 @@
-/staci upravovat elementy/
+/*staci upravovat elementy*/
 header, footer, #container {box-sizing: border-box;}
 
 form{position: fixed;right: 0; top:0;}
