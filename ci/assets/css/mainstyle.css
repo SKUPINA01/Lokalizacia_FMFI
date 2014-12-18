@@ -1,4 +1,5 @@
-/*staci upravovat elementy*/
+
+/*doriesit formular  dizajn navygacie*/
 header, footer, #container {box-sizing: border-box;}
 
 form{position: fixed;right: 0; top:0;}
@@ -8,9 +9,9 @@ form{position: fixed;right: 0; top:0;}
 @media only screen {
 	#container { position:fixed ; top:0 ; left:0; width: 30em; height: 100%;}
 	header{position:fixed ; top:0 ; left:0; width: 100%; height: 11.4%; }
-	nav{position:fixed; top: 11.4%; left:0; width:12%; height: 83.7%;}
+	nav{position:fixed; top: 11.4%; left:0; width:12.5%; height: 83.7%;}
 	section{position:fixed;top: 11.4%; left: 12.5%; width: 87.5%; height: 84%;}
-	footer{position:fixed; top: 0; left: 0; width: 100%; height: 5%;}
+	footer{position:fixed; bottom: 0; left: 0; width: 100%; height: 5%;}
 }
 /* min-width 320px and max-width 480px*/
 @media only screen and (min-width: 20em) and (max-width: 30em) {
@@ -18,7 +19,7 @@ form{position: fixed;right: 0; top:0;}
 	header{position:fixed ; top:0 ; left:0; width: 100%; height: 14.4%;}
 	nav{position:fixed; top: 14.4%; left:0; width:12.5%; height: 83.7%;}
 	section{position: fixed;top: 14.4%; left: 12.5%; width: 87.5%; height: 83.7%; }
-	footer{position:fixed;top: 95%; left: 0; width: 100%; height: 5%;}
+	footer{position:fixed;bottom: 0; left: 0; width: 100%; height: 5%;}
 }
 /* min-width 481px and max-width 640px */
 @media only screen and (min-width: 30.063em) and (max-width: 40em) {
@@ -26,7 +27,7 @@ form{position: fixed;right: 0; top:0;}
 	header{position:fixed; top:0; left:0; width: 100%; height: 14.4%;}
 	nav{position:fixed;top:14.4%;left:0; width:12.5%; height: 80.7%;}
 	section{position:fixed; top: 14.4%; left: 12.5%; width: 87.5%; height: 80.7%;}
-	footer{position:fixed;top: 95%; left: 0; width: 100%; height: 5%;}
+	footer{position:fixed;bottom: 0; left: 0; width: 100%; height: 5%;}
 }
 /* min-width 641px */
 @media only screen and (min-width: 40.063em) {
@@ -34,7 +35,7 @@ form{position: fixed;right: 0; top:0;}
 	header{position:fixed ; top:0 ; left:0; width: 100%; height: 7%;}
 	nav{position:fixed; top: 7%; left:0; width:12.5%; height: 82%;}
 	section{position:fixed; top: 7%; left: 12.5%; width: 87.5%; height: 82%;}
-	footer{position:fixed; top: 95%; left: 0; width: 100%; height: 5%;}
+	footer{position:fixed; bottom: 0%; left: 0; width: 100%; height: 5%;}
 }
 /* min-width 641px and max-width 1024px */
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
@@ -42,7 +43,7 @@ form{position: fixed;right: 0; top:0;}
 	header{position:fixed; top:0 ; left:0; width: 100%; height: 14.4%;}
 	nav{position:fixed; top: 14.4%; left:0; width:12.5%; height: 80.7%;}
 	section{position:fixed; top: 14.4%; left: 12.5%; width: 87.5%;height: 80.7%;}
-	footer{position:fixed; top: 95%; left: 0; width: 100%; height: 5%;}
+	footer{position:fixed; bottom: 0%; left: 0; width: 100%; height: 5%;}
 }
 /* *************************** Large screens ************************************** */
 /* min-width 1025px */
@@ -51,7 +52,7 @@ form{position: fixed;right: 0; top:0;}
 	header{position:fixed ; top:0 ; left:0; width: 100%; height: 7%;}
 	nav{position:fixed;top: 7%; left:0; width:12.5%; height: 90%;}
 	section{position:fixed; top: 11.4%; left: 12.5%; width: 87.5%; height: 90%;}
-	footer{position:fixed;top: 95%; left: 0; width: 100%; height: 5%;}
+	footer{position:fixed; bottom: 0; left: 0; width: 100%; height: 5%;}
 }
 /* min-width 1025px and max-width 1440px */
 @media only screen and (min-width: 64.063em) and (max-width: 90em) {
@@ -59,7 +60,7 @@ form{position: fixed;right: 0; top:0;}
 	header{position:fixed ; top:0 ; left:0; width: 100%; height: 14.4%;}
 	nav{position:fixed;top: 14.4%;left:0; width:12.5%; height: 80.7%;}
 	section{position:fixed; top: 14.4%; left: 12.5%; width: 87.5%; height: 80.7%;}
-	footer{position:fixed;top: 95%; left: 0; width: 100%; height: 5%;}
+	footer{position:fixed; bottom: 0; left: 0; width: 100%; height: 5%;}
 }
 /* *************************** XLarge screens ************************************* */
 /* min-width 1441px */
@@ -68,7 +69,7 @@ form{position: fixed;right: 0; top:0;}
 	header{position:fixed ; top:0 ; left:0; width: 100%; height: 5%;}
 	nav{position:fixed;top: 5%; left:0; width:12.5%; height: 90%;}
 	section{position:fixed;top: 11.4%;left: 12.5%;width: 87.5%;height: 90%;}
-	footer{position:fixed;top: 95%; left: 0; width: 100%; height: 5%;}
+	footer{position:fixed;bottom: 0; left: 0; width: 100%; height: 5%;}
 }
 /* min-width 1441px and max-width 1920px*/
 @media only screen and (min-width: 90.063em) and (max-width: 120em) {
@@ -76,7 +77,7 @@ form{position: fixed;right: 0; top:0;}
 	header{position:fixed ; top:0 ; left:0; width: 100%; height:14.4%;}
 	nav{position:fixed;top: 14.4%; left:0; width:12.5%; height: 80.7%;}
 	section{position:fixed; top: 14.4%; left: 12.5%; width: 87.5%; height: 80.7%}
-	footer{position:fixed;top: 95%; left: 0; width: 100%; height: 5%;}
+	footer{position:fixed;bottom: 0; left: 0; width: 100%; height: 5%;}
 }
 /* *************************** XXLarge screens ************************************ */
 /* min-width 1921px*/
@@ -85,7 +86,7 @@ form{position: fixed;right: 0; top:0;}
 	header{position:fixed ; top:0; left:0; width: 100%;  height: 14.4%;}
 	nav{position:fixed;top: 14.4%; left:0; width:12.5%; height: 80.7%;}
 	section{position:fixed;top: 14.4%; width: 87.5%;height: 80.7%;left: 12.5%;}
-	footer{position:fixed;top: 95%; left: 0; width: 100%; height: 5%;}
+	footer{position:fixed;bottom: 0%; left: 0; width: 100%; height: 5%;}
 }
 /**************************************************styly, background, colors****************************************************************************/
 /**body*/
@@ -97,20 +98,22 @@ body{
 /**header*/
 header{
 	color: white;
-	background: black;
-	background: linear-gradient(top, black 0%, #7b0d0d 100%);
-	background: -moz-linear-gradient(top, black 0%, #7b0d0d 100%);
-	background: -webkit-linear-gradient(top, black 0%, #7b0d0d 100%);
+	background: -moz-linear-gradient(black, #7b0d0d); 
+    background: -ms-linear-gradient(black, #7b0d0d);   
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, black), color-stop(100%, #7b0d0d));  
+    background: -webkit-linear-gradient(black, #7b0d0d);   
+    background: -o-linear-gradient(black, #7b0d0d);   
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='black', endColorstr=#7b0d0d);   
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='black', endColorstr=#7b0d0d)";  
+    background: linear-gradient(black, #7b0d0d);  
+    z-index: 1;
 }
 
 
 /********************************************************************************************************************************/
 /**Nav*/
 nav {
-	background: black;
-	background: linear-gradient(bottom, black 0%, #7b0d0d 100%);
-	background: -moz-linear-gradient(bottom, black 0%, #7b0d0d 100%);
-	background: -webkit-linear-gradient(bottom, black 0%, #7b0d0d 100%);
+	background: #7b0d0d;
 	position: fixed;
 }
 nav ul ul{
@@ -128,12 +131,17 @@ nav ul a{
 	text-decoration: none;
 }
 nav ul li{
-	background: linear-gradient(bottom, black 0%, #7b0d0d 100%);
-	background: -moz-linear-gradient(bottom, black 0%, #7b0d0d 100%);
-	background: -webkit-linear-gradient(bottom, black 0%, #7b0d0d 100%);
-	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
-	border-radius:5px;
-	padding: 15%;
+	background: -moz-linear-gradient(#7b0d0d, black); 
+    background: -ms-linear-gradient(#7b0d0d, black);   
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7b0d0d), color-stop(100%, black));  
+    background: -webkit-linear-gradient(#7b0d0d, black);   
+    background: -o-linear-gradient(#7b0d0d, black);   
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7b0d0d', endColorstr=black);   
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#7b0d0d', endColorstr=black)";  
+    background: linear-gradient(#7b0d0d, black);  
+    z-index: 1;
+	border-radius:10px;
+	padding: 25%;
 	padding-left: 0;
 	padding-right: 0;
 }
@@ -141,11 +149,8 @@ nav ul li ul li{
 	margin: 0%;
 	margin-left: 0;
 	margin-right: 0;
-	background: linear-gradient(bottom, black 0%, #7b0d0d 100%);
-	background: -moz-linear-gradient(bottom, black 0%, #7b0d0d 100%);
-	background: -webkit-linear-gradient(bottom, black 0%, #7b0d0d 100%);
 	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
-	border-radius:5px;
+	border-radius:10px;
 	padding: 10%;
 	padding-left: 0;
 	padding-right: 0;
@@ -163,12 +168,14 @@ nav ul li:hover> ul {
 /********************************************************************************************************************************/
 /**footer*/
 footer{
-bottom: 0;
-position: fixed;
-width: 100%;
-background: black;
-background: linear-gradient(top, black 0%, #7b0d0d 100%);
-background: -moz-linear-gradient(top, black 0%, #7b0d0d 100%);
-background: -webkit-linear-gradient(top, black 0%, #7b0d0d 100%);
-color: white;
+	color: white;
+	 background: -moz-linear-gradient(#7b0d0d, black); 
+    background: -ms-linear-gradient(#7b0d0d, black);   
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7b0d0d), color-stop(100%, black));  
+    background: -webkit-linear-gradient(#7b0d0d, black);   
+    background: -o-linear-gradient(#7b0d0d, black);   
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7b0d0d', endColorstr=black);   
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#7b0d0d', endColorstr=black)";  
+    background: linear-gradient(#7b0d0d, black);  
+    z-index: 1;
 }
