@@ -1,5 +1,5 @@
 /*upravena sirka navigacie*/
-/* upravit chovanie*/
+/* upravit chovanie navigacie neopakovat co netreba*/
 header, footer, #container {box-sizing: border-box;}
 
 form{position: fixed;right: 0; top:0;}
