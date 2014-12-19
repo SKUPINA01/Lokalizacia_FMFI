@@ -1,5 +1,5 @@
-
-/*final*/
+/*upravena sirka navigacie*/
+/* upravit chovanie*/
 header, footer, #container {box-sizing: border-box;}
 
 form{position: fixed;right: 0; top:0;}
@@ -9,24 +9,24 @@ form{position: fixed;right: 0; top:0;}
 @media only screen {
 	#container { position:fixed ; top:0 ; left:0; width: 30em; height: 100%;}
 	header{position:fixed ; top:0 ; left:0; width: 100%; height: 11.4%; }
-	nav{position:fixed; top: 11.4%; left:0; width:12.5%; height: 83.7%;}
-	section{position:fixed;top: 11.4%; left: 12.5%; width: 87.5%; height: 84%;}
+	nav{position:fixed; top: 11.4%; left:0; width:15%; height: 83.7%;}
+	section{position:fixed;top: 11.4%; left: 15%; width: 85%; height: 84%;}
 	footer{position:fixed; bottom: 0; left: 0; width: 100%; height: 5%;}
 }
 /* min-width 320px and max-width 480px*/
 @media only screen and (min-width: 20em) and (max-width: 30em) {
 	#container {  position:fixed ; top:0 ; left:0; width: 30em; height: 100%;}
 	header{position:fixed ; top:0 ; left:0; width: 100%; height: 14.4%;}
-	nav{position:fixed; top: 14.4%; left:0; width:12.5%; height: 83.7%;}
-	section{position: fixed;top: 14.4%; left: 12.5%; width: 87.5%; height: 83.7%; }
+	nav{position:fixed; top: 14.4%; left:0; width:15%; height: 83.7%;}
+	section{position: fixed;top: 14.4%; left: 15%; width: 85%; height: 83.7%; }
 	footer{position:fixed;bottom: 0; left: 0; width: 100%; height: 5%;}
 }
 /* min-width 481px and max-width 640px */
 @media only screen and (min-width: 30.063em) and (max-width: 40em) {
 	#container {  position:fixed; top:0 ; left:0; width: 40em; height: 100%;}
 	header{position:fixed; top:0; left:0; width: 100%; height: 14.4%;}
-	nav{position:fixed;top:14.4%;left:0; width:12.5%; height: 80.7%;}
-	section{position:fixed; top: 14.4%; left: 12.5%; width: 87.5%; height: 80.7%;}
+	nav{position:fixed;top:14.4%;left:0; width:15%; height: 80.7%;}
+	section{position:fixed; top: 14.4%; left: 15%; width: 85%; height: 80.7%;}
 	footer{position:fixed;bottom: 0; left: 0; width: 100%; height: 5%;}
 }
 /* min-width 641px */
@@ -34,15 +34,15 @@ form{position: fixed;right: 0; top:0;}
 	#container { position: fixed ; top:0 ; left:0; width: 40.0630em; height: 100%;}
 	header{position:fixed ; top:0 ; left:0; width: 100%; height: 7%;}
 	nav{position:fixed; top: 7%; left:0; width:12.5%; height: 82%;}
-	section{position:fixed; top: 7%; left: 12.5%; width: 87.5%; height: 82%;}
+	section{position:fixed; top: 7%; left: 15%; width: 85%; height: 82%;}
 	footer{position:fixed; bottom: 0%; left: 0; width: 100%; height: 5%;}
 }
 /* min-width 641px and max-width 1024px */
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
 	#container { position:fixed ; top:0 ; left:0; width: 64em; height: 100%;}
 	header{position:fixed; top:0 ; left:0; width: 100%; height: 14.4%;}
-	nav{position:fixed; top: 14.4%; left:0; width:12.5%; height: 80.7%;}
-	section{position:fixed; top: 14.4%; left: 12.5%; width: 87.5%;height: 80.7%;}
+	nav{position:fixed; top: 14.4%; left:0; width:15%; height: 80.7%;}
+	section{position:fixed; top: 14.4%; left: 15%; width: 85%;height: 80.7%;}
 	footer{position:fixed; bottom: 0%; left: 0; width: 100%; height: 5%;}
 }
 /* *************************** Large screens ************************************** */
@@ -50,16 +50,16 @@ form{position: fixed;right: 0; top:0;}
 @media only screen and (min-width: 64.063em) {
 	#container { position:fixed ; top:0 ; left:0; width: 64.063em; height: 100%; }
 	header{position:fixed ; top:0 ; left:0; width: 100%; height: 7%;}
-	nav{position:fixed;top: 7%; left:0; width:12.5%; height: 90%;}
-	section{position:fixed; top: 11.4%; left: 12.5%; width: 87.5%; height: 90%;}
+	nav{position:fixed;top: 7%; left:0; width:15%; height: 90%;}
+	section{position:fixed; top: 11.4%; left: 15%; width: 85%; height: 90%;}
 	footer{position:fixed; bottom: 0; left: 0; width: 100%; height: 5%;}
 }
 /* min-width 1025px and max-width 1440px */
 @media only screen and (min-width: 64.063em) and (max-width: 90em) {
 	#container { position:fixed ; top:0 ; left:0; width: 90em; height: 100%;}
 	header{position:fixed ; top:0 ; left:0; width: 100%; height: 14.4%;}
-	nav{position:fixed;top: 14.4%;left:0; width:12.5%; height: 80.7%;}
-	section{position:fixed; top: 14.4%; left: 12.5%; width: 87.5%; height: 80.7%;}
+	nav{position:fixed;top: 14.4%;left:0; width:15%; height: 80.7%;}
+	section{position:fixed; top: 14.4%; left: 15%; width: 85%; height: 80.7%;}
 	footer{position:fixed; bottom: 0; left: 0; width: 100%; height: 5%;}
 }
 /* *************************** XLarge screens ************************************* */
@@ -67,16 +67,16 @@ form{position: fixed;right: 0; top:0;}
 @media only screen and (min-width: 90.063em) {
 	#container { position:fixed ; top:0 ; left:0; width: 90.063em; height: 100%;}
 	header{position:fixed ; top:0 ; left:0; width: 100%; height: 5%;}
-	nav{position:fixed;top: 5%; left:0; width:12.5%; height: 90%;}
-	section{position:fixed;top: 11.4%;left: 12.5%;width: 87.5%;height: 90%;}
+	nav{position:fixed;top: 5%; left:0; width:15%; height: 90%;}
+	section{position:fixed;top: 11.4%;left: 15%;width: 85%;height: 90%;}
 	footer{position:fixed;bottom: 0; left: 0; width: 100%; height: 5%;}
 }
 /* min-width 1441px and max-width 1920px*/
 @media only screen and (min-width: 90.063em) and (max-width: 120em) {
 	#container { position:fixed ; top:0 ; left:0; width: 320em; height: 100%;}
 	header{position:fixed ; top:0 ; left:0; width: 100%; height:14.4%;}
-	nav{position:fixed;top: 14.4%; left:0; width:12.5%; height: 80.7%;}
-	section{position:fixed; top: 14.4%; left: 12.5%; width: 87.5%; height: 80.7%}
+	nav{position:fixed;top: 14.4%; left:0; width:15%; height: 80.7%;}
+	section{position:fixed; top: 14.4%; left: 15%; width: 85%; height: 80.7%}
 	footer{position:fixed;bottom: 0; left: 0; width: 100%; height: 5%;}
 }
 /* *************************** XXLarge screens ************************************ */
@@ -84,8 +84,8 @@ form{position: fixed;right: 0; top:0;}
 @media only screen and (min-width: 120.063em) {
 	#container { position:fixed ; top:0 ; left:0; width: 120.063em; height: 100%; }
 	header{position:fixed ; top:0; left:0; width: 100%;  height: 14.4%;}
-	nav{position:fixed;top: 14.4%; left:0; width:12.5%; height: 80.7%;}
-	section{position:fixed;top: 14.4%; width: 87.5%;height: 80.7%;left: 12.5%;}
+	nav{position:fixed;top: 14.4%; left:0; width:15%; height: 80.7%;}
+	section{position:fixed; top: 14.4%; left:15%; width: 85%;height: 80.7%;left: 12.5%;}
 	footer{position:fixed;bottom: 0%; left: 0; width: 100%; height: 5%;}
 }
 /**************************************************styly, background, colors****************************************************************************/
@@ -128,6 +128,7 @@ nav ul{
 }
 nav ul a{
 	color: white;
+	text-align: left;
 	text-decoration: none;
 }
 nav ul li{
