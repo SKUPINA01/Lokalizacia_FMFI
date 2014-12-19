@@ -1,5 +1,3 @@
-/*upravena sirka navigacie*/
-/* upravit chovanie navigacie neopakovat co netreba*/
 header, footer, #container {box-sizing: border-box;}
 
 form{position: fixed;right: 0; top:0;}
@@ -89,6 +87,18 @@ form{position: fixed;right: 0; top:0;}
 	footer{position:fixed;bottom: 0%; left: 0; width: 100%; height: 5%;}
 }
 /**************************************************styly, background, colors****************************************************************************/
+/*spolocne vlastnosti*/
+nav ul li,nav ul li a:hover,footer{
+	background: -moz-linear-gradient(#7b0d0d, black); 
+    background: -ms-linear-gradient(#7b0d0d, black);   
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7b0d0d), color-stop(100%, black));  
+    background: -webkit-linear-gradient(#7b0d0d, black);   
+    background: -o-linear-gradient(#7b0d0d, black);   
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7b0d0d', endColorstr=black);   
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#7b0d0d', endColorstr=black)";  
+    background: linear-gradient(#7b0d0d, black);  
+    z-index: 1;
+}
 /**body*/
 body{
 	margin: 0;
@@ -111,10 +121,12 @@ header{
 
 
 /********************************************************************************************************************************/
+/*spolocne vlastnosti*/
+
 /**Nav*/
 nav {
 	background: #7b0d0d;
-	position: fixed;
+	
 }
 nav ul ul{
 	display: none;
@@ -128,33 +140,45 @@ nav ul{
 }
 nav ul a{
 	color: white;
-	text-align: left;
+	padding: 35%;
+	padding-bottom: 0;
+	padding-top: 0;
 	text-decoration: none;
+	border-radius:10px;
+	border-radius:10px;
+
 }
 nav ul li{
-	background: -moz-linear-gradient(#7b0d0d, black); 
-    background: -ms-linear-gradient(#7b0d0d, black);   
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7b0d0d), color-stop(100%, black));  
-    background: -webkit-linear-gradient(#7b0d0d, black);   
-    background: -o-linear-gradient(#7b0d0d, black);   
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7b0d0d', endColorstr=black);   
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#7b0d0d', endColorstr=black)";  
-    background: linear-gradient(#7b0d0d, black);  
-    z-index: 1;
-	border-radius:10px;
+
+
 	padding: 25%;
 	padding-left: 0;
 	padding-right: 0;
+}
+nav ul li ul li a{
+	color: white;
+	padding: 8%;
+	padding-bottom: 0;
+	padding-top: 0;
+	text-decoration: none;
+	border-radius:10px;
+	
 }
 nav ul li ul li{
 	margin: 0%;
 	margin-left: 0;
 	margin-right: 0;
+	background: -moz-linear-gradient(transparent, transparent); 
+    background: -ms-linear-gradient(transparent, transparent);   
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, transparent), color-stop(100%, transparent));  
+    background: -webkit-linear-gradient(transparent, transparent);   
+    background: -o-linear-gradient(transparent,transparent );   
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='transparent', endColorstr=transparent);   
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='transparent', endColorstr=transparent)";  
+    background: linear-gradient(transparent, transparent);  
 	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
-	border-radius:10px;
-	padding: 10%;
-	padding-left: 0;
-	padding-right: 0;
+	
+	padding: 0;
 }
 nav ul li a:hover{
 	color:orange;
@@ -170,13 +194,5 @@ nav ul li:hover> ul {
 /**footer*/
 footer{
 	color: white;
-	 background: -moz-linear-gradient(#7b0d0d, black); 
-    background: -ms-linear-gradient(#7b0d0d, black);   
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7b0d0d), color-stop(100%, black));  
-    background: -webkit-linear-gradient(#7b0d0d, black);   
-    background: -o-linear-gradient(#7b0d0d, black);   
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7b0d0d', endColorstr=black);   
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#7b0d0d', endColorstr=black)";  
-    background: linear-gradient(#7b0d0d, black);  
-    z-index: 1;
+	 
 }
